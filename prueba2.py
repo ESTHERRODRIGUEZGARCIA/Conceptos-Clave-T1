@@ -40,6 +40,17 @@ class Punto():
     def distancia(punto, p1, p2):
         print("La distancia es:", math.sqrt((p1.x-p2.x)**2 + (p1.y-p2.y)**2))
 
+class Rectangulo():
+
+    def __innit__(self,punto_inicial, punto_final):
+        #método constructor
+        self.punto_inicial = punto_inicial
+        self.punto_final = punto_final
+
+
+
+
+
 
 
 

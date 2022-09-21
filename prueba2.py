@@ -8,4 +8,10 @@ class Punto():
         self.x = x
         self.y = y
 
-    def setter(self):
+    def __str__(self):
+        return "(X={},Y={})".format(self.x, self.y)
+
+    def cuadrante():
+        #me debe indicar a qué cuadrante pertenece el punto
+        if x == 0 and y != 0:
+

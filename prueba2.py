@@ -1,11 +1,16 @@
 import math
+import random
+
+A = (2,3)
+B = (5,5)
+C = (-3,-1)
+D = (0,0)
 class Punto():
 
     x = 0
     y = 0
-    punto = (p1, p2)
-    p1 = x
-    p2 = y
+    p1 = random.randint(A, B, C, D)
+    p2 = random.randint(A, B, C, D)
 
     def __innit__(self, x, y):
         #método constructor
@@ -35,13 +40,10 @@ class Punto():
     def distancia(punto, p1, p2):
         print("La distancia es:", math.sqrt((p1.x-p2.x)**2 + (p1.y-p2.y)**2))
 
-    def rectangulo(punto):
 
 
-A = (2,3)
-B = (5,5)
-C = (-3,-1)
-D = (0,0)
+
+
 
 
 

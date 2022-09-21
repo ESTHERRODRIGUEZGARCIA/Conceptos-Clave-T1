@@ -42,11 +42,15 @@ class Punto():
 
 class Rectangulo():
 
-    def __innit__(self,punto_inicial, punto_final):
+    def __innit__(self, punto_inicial, punto_final):
         #método constructor
         self.punto_inicial = punto_inicial
         self.punto_final = punto_final
-
+    
+    def base(self):
+        print("La base del rectángulo es {}".format( self.vBase ) )
+ 
+    
 
 
 

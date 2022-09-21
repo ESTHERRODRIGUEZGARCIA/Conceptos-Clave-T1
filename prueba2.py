@@ -9,8 +9,8 @@ class Punto():
 
     x = 0
     y = 0
-    p1 = random.randint(A, B, C, D)
-    p2 = random.randint(A, B, C, D)
+    p1 = random.choice(A, B, C, D)
+    p2 = random.choice(A, B, C, D)
 
     def __innit__(self, x, y):
         #método constructor

@@ -14,4 +14,13 @@ class Punto():
     def cuadrante():
         #me debe indicar a qué cuadrante pertenece el punto
         if x == 0 and y != 0:
+            print("El punto se encuentra en el eje Y")
+            if 
+            # eje y
+        if x != 0 and y == 0:
+            # eje x
+        if x == 0 and y == 0:
+            print("El punto se encuentra sobre el origen")
+
+
 

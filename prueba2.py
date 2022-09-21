@@ -11,7 +11,7 @@ class Punto():
     def __str__(self):
         return "(X={},Y={})".format(self.x, self.y)
 
-    def cuadrante():
+    def cuadrante(self, x, y):
         #me debe indicar a qué cuadrante pertenece el punto
         if x > 0 and y > 0:
             print("El punto se encuentra en el cuadrante 1")

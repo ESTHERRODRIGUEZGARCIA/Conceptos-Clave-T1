@@ -27,11 +27,13 @@ class Punto():
 
     def vector(self, vector, x, y):
         vector = x - y
-        print("El vector entre {} y {} es: ", vector)
+        print("El vector entre {} y {} es: ({}, {}) ", vector)
 
     def distancia(self, d, x, y):
-        d = math.sqrt(( d.x - self.x)**2 + (d.y - self.y)**2)
-        print("La distancia entre {} y {} es: ({}, {}) ", d)
+        print("La distancia es:", math.sqrt((p1.x-p2.x)**2 + (p1.y-p2.y)**2))
+        
+    def rectangulo(punto):
+
 
 A = (2,3)
 B = (5,5)

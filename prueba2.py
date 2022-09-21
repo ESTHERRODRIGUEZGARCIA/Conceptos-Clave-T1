@@ -3,6 +3,9 @@ class Punto():
 
     x = 0
     y = 0
+    punto = (p1, p2)
+    p1 = x
+    p2 = y
 
     def __innit__(self, x, y):
         #método constructor

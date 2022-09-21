@@ -21,7 +21,7 @@ class Punto():
             print("El punto se encuentra en el cuadrante 3")
         if x < 0 and y < 0:
             print("El punto se encuentra en el cuadrante 4")
-        if x == 0 and y == 0:
+        elif x == 0 and y == 0:
             print("El punto se encuentra sobre el origen")
 
 

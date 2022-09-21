@@ -46,15 +46,15 @@ class Rectangulo():
         #método constructor
         self.punto_inicial = punto_inicial
         self.punto_final = punto_final
-    
+
     def base(self):
         Base = self.vBase
         print("La base del rectángulo es {}".format(Base ))
- 
+
     def altura(self):
         Altura = self.vAltura
         print("La altura del rectángulo es {}".format(Altura))
- 
+
     def area(self):
         Area = self.vArea
         print("El área del rectángulo es {}".format(Area))

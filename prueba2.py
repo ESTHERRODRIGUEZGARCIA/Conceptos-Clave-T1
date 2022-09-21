@@ -24,7 +24,7 @@ class Punto():
         elif x == 0 and y == 0:
             print("El punto se encuentra sobre el origen")
 
-    def vector(self, vector, x y):
+    def vector(self, vector, x, y):
         vector = x - y
         print("El vector entre {} y {} es ", vector)
 
